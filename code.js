@@ -4,7 +4,7 @@ console.log('Hello');
 // -main item
 // -drink
 // -snack
-// Outpu example: Your meal today will be: hamburger, Cola and a Snickers bar.
+// Output example: Your meal today will be: hamburger, Cola and a Snickers bar.
 
 let messageElements = [];
 
