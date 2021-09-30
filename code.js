@@ -33,7 +33,7 @@ const messageGenerator = (elements) => {
     return message;
 };
 
-messageGenerator(messageElements);
+console.log(messageGenerator(messageElements));
 
 
 
