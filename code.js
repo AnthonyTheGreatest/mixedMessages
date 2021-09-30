@@ -20,11 +20,11 @@ const allItems = {
 
 for (let key in allItems) {
     if ('main') {
-        messageElements.push(allItems.key[randomIndexGenerator(allItems.key.length)])
+        messageElements.push(allItems[key][randomIndexGenerator(allItems[key].length)])
     } else if ('drink') {
-        messageElements.push(allItems.key[randomIndexGenerator(allItems.key.length)])
+        messageElements.push(allItems[key][randomIndexGenerator(allItems[key].length)])
     } else {
-        messageElements.push(allItems.key[randomIndexGenerator(allItems.key.length)])
+        messageElements.push(allItems[key][randomIndexGenerator(allItems[key].length)])
     };
 };
 

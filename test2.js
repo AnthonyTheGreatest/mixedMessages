@@ -10,7 +10,7 @@
   for(let prop in collectiveWisdom) {
     switch(prop) {
       case 'signInfo':
-        personalWisdom.push(1)
+        personalWisdom.push(collectiveWisdom[prop][0])
         break
       case 'fortuneOutput':
         personalWisdom.push(2)
